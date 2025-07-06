@@ -1,0 +1,42 @@
+header{
+    background-color: rgb(20, 20, 20);
+    display: flex;
+    justify-content: space-between;
+    height: 9vh;
+
+    h1{
+        margin: 0 1%;
+        padding: 0;
+        align-self: left;
+    }
+
+}
+.user-info-logout{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.nav{
+    margin: auto 3% auto;
+    .ul-left-side{
+        gap: 10%;
+        li{
+            width: max-content;
+        }
+    }
+}
+
+nav{
+    height: 100%;
+}
+
+li, .link{
+    flex-shrink: 0;
+    display: inline-block;
+    font-size: 1.8rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
