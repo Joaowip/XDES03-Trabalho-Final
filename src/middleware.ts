@@ -1,6 +1,7 @@
-// Usando +/- o exemplo da aula pra produção das telas
-
+import { isSessionValid } from "@/app/libs/session";
 import {NextRequest, NextResponse} from "next/server";
+
+
 
 //regex retirada diretamente da documentação do NextJS
 export const config = {
@@ -11,12 +12,27 @@ export const config = {
 const publicRoutes = [
     '/',
     '/login',
-    '/create',
-    '/dashboard' // retirar quando fizer as rotas
+    '/create'
 ]
 
 export async function middleware(req: NextRequest){
 
-    return NextResponse.next();
+    const pathname = req.nextUrl.pathname;
+
+    //verificar se a requisicao possui credenciais validas para criar uma session
+    const session = await isSessionValid();
+
+    if(publicRoutes.includes(pathname) && session)
+    {
+        return NextResponse.redirect(new URL('/dashboard', req.nextUrl));
+    }
     
+    if(!session && !publicRoutes.includes(pathname)){
+        return NextResponse.redirect(new URL('/login', req.nextUrl));
+    }
+
+    
+    return NextResponse.next();
+      
+
 }

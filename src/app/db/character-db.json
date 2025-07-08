@@ -1,0 +1,46 @@
+[
+  {
+    "id": "9e3f7ce4-b9a7-4244-b709-dae5c1f1d4a8",
+    "img": "https://ik.imagekit.io/hpapi/harry.jpg",
+    "nome": "Harry Potter",
+    "altNome": "The Boy Who Lived",
+    "nascimento": "31-07-1980",
+    "casaHogwartz": "Gryffindor",
+    "interprete": "Daniel Radcliffe",
+    "nota": 1,
+    "descricao": "Harry Potter é descrito como um garoto magro e baixo, com cabelos pretos e bagunçados, e olhos verdes brilhantes como descrito nos livros. Ele usa óculos e tem uma cicatriz em forma de raio na testa de acordo com a descrição da personagem. Muitas vezes, é comparado ao pai, James, exceto pelos olhos, que são uma característica herdada da mãe, Lily. "
+  },
+  {
+    "id": "6a32a466-db80-4a38-a314-c2ecae6c0ed1",
+    "img": "https://ik.imagekit.io/hpapi/hermione.jpeg",
+    "nome": "Hermione Granger",
+    "altNome": "Hermy",
+    "nascimento": "19-09-1979",
+    "casaHogwartz": "Gryffindor",
+    "interprete": "Emma Watson",
+    "nota": 3,
+    "descricao": "nada"
+  },
+  {
+    "id": "f4a02e28-a6a1-427d-8662-fc52c863d710",
+    "img": "https://ik.imagekit.io/hpapi/ron.jpg",
+    "nome": "Ron Weasley",
+    "altNome": "Dragomir Despard",
+    "nascimento": "01-03-1980",
+    "casaHogwartz": "Gryffindor",
+    "interprete": "Rupert Grint",
+    "nota": 4,
+    "descricao": ""
+  },
+  {
+    "id": "4ef26da2-53bb-4a8a-9265-a78670943fec",
+    "img": "https://ik.imagekit.io/hpapi/draco.jpg",
+    "nome": "Draco Malfoy",
+    "altNome": "",
+    "nascimento": "05-06-1980",
+    "casaHogwartz": "Slytherin",
+    "interprete": "Tom Felton",
+    "nota": 4,
+    "descricao": "Draco é conhecido por sua arrogância, seu desprezo por aqueles que considera inferiores (especialmente nascidos trouxas) e sua busca por poder e status."
+  }
+]

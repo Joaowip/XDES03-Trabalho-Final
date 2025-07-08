@@ -17,7 +17,10 @@ h1{
     text-align: center;
     width: 35%;
     margin: 2% auto;
+    padding: 1%;
     margin-right: 52%;
+    background-color: rgb(8, 2, 43);
+    border-radius: 1.5rem;
     h2{
         padding-bottom: 5%;
     }
@@ -46,6 +49,9 @@ h1{
     gap: 4%;
     padding-top: 1%;
     padding-bottom: 0.5%;
+    padding: 1%;
+    background-color: rgb(8, 2, 43);
+    border-radius: 1.5rem;
     div{
         text-align: center;
     }
