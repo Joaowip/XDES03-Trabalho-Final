@@ -67,4 +67,49 @@ Além disso, ele demonstra na prática a construção de um **CRUD completo**, c
 
 ---
 
-<pre lang="markdown"> ## 📁 Estrutura de Pastas ``` src/ ├── app/ │ ├── (auth)/ # Páginas de autenticação │ │ ├── create/page.tsx # Página de cadastro de usuário │ │ ├── login/page.tsx # Página de login de usuário │ │ └── layout.tsx # Layout das páginas de login/cadastro │ ├── dashboard/ # Áreas protegidas para usuário logado │ │ ├── create/page.tsx # Formulário para avaliar personagem │ │ ├── edit/[id]/page.tsx # Edição de avaliação existente │ │ └── page.tsx # Página com cards ordenados por nota │ ├── db/ # Banco de dados local simulado │ │ ├── character-db.json │ │ └── usuarios-db.json │ ├── libs/ # Funções auxiliares │ │ ├── add-char.ts │ │ ├── conexao-bd.ts │ │ ├── credentials.ts │ │ ├── hpapi.ts │ │ └── session.ts │ ├── styles/ # Estilos (CSS puro) │ │ ├── autocomplete.css │ │ ├── characters.css │ │ ├── create-character.css │ │ ├── dashboard.css │ │ ├── footer.css │ │ ├── header.css │ │ └── login.css │ ├── ui/ # Componentes de interface │ │ ├── autocompleteInput.tsx │ │ ├── characters.tsx │ │ ├── footer.tsx │ │ └── header.tsx │ ├── globals.css │ ├── layout.tsx │ ├── page.css │ └── page.tsx ├── middleware.ts ├── package.json ├── package-lock.json ├── next.config.ts ├── next-env.d.ts └── tsconfig.json ``` </pre>
+## 📁 Estrutura de Pastas
+
+```
+src/
+├── app/
+│ ├── (auth)/ # Páginas de autenticação
+│ │ ├── create/page.tsx # Página de cadastro de usuário
+│ │ ├── login/page.tsx # Página de login de usuário
+│ │ └── layout.tsx # Layout das páginas de login/cadastro
+│ ├── dashboard/ # Áreas protegidas para usuário logado
+│ │ ├── create/page.tsx # Formulário para avaliar personagem
+│ │ ├── edit/[id]/page.tsx # Edição de avaliação existente
+│ │ └── page.tsx # Página com cards ordenados por nota
+│ ├── db/ # Banco de dados local simulado
+│ │ ├── character-db.json
+│ │ └── usuarios-db.json
+│ ├── libs/ # Funções auxiliares
+│ │ ├── add-char.ts
+│ │ ├── conexao-bd.ts
+│ │ ├── credentials.ts
+│ │ ├── hpapi.ts
+│ │ └── session.ts
+│ ├── styles/ # Estilos (CSS puro)
+│ │ ├── autocomplete.css
+│ │ ├── characters.css
+│ │ ├── create-character.css
+│ │ ├── dashboard.css
+│ │ ├── footer.css
+│ │ ├── header.css
+│ │ └── login.css
+│ ├── ui/ # Componentes de interface
+│ │ ├── autocompleteInput.tsx
+│ │ ├── characters.tsx
+│ │ ├── footer.tsx
+│ │ └── header.tsx
+│ ├── globals.css
+│ ├── layout.tsx
+│ ├── page.css
+│ └── page.tsx
+├── middleware.ts
+├── package.json
+├── package-lock.json
+├── next.config.ts
+├── next-env.d.ts
+└── tsconfig.json
+```
