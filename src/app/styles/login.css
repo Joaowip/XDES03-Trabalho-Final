@@ -1,0 +1,114 @@
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    padding-top: 1%;
+    align-self: center;
+    margin-right: 40%;
+    color: white;
+}
+
+.introducao{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+    width: 35%;
+    margin: 2% auto;
+    padding: 1%;
+    margin-right: 52%;
+    background-color: rgb(8, 2, 43);
+    border-radius: 1.5rem;
+    h2{
+        padding-bottom: 5%;
+    }
+    p{
+        font-size: 1.1rem;
+        padding-bottom: 1%;
+    }
+}
+
+.img-background{
+    background-image: url('public/background.png');
+    background-size: cover;
+    background-position: center;
+    min-height:87vh;
+}
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    margin: 1% auto;
+    margin-bottom: 0;
+    margin-right: 52%;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4%;
+    padding-top: 1%;
+    padding-bottom: 0.5%;
+    padding: 1%;
+    background-color: rgb(8, 2, 43);
+    border-radius: 1.5rem;
+    div{
+        text-align: center;
+    }
+
+    button{
+        width: 30%;
+        background-color: black;
+        border: 1px solid white;
+        color: rgb(255, 255, 255);
+        height: 4vh;
+        margin: 4% auto;
+        font-size: 1.2rem;
+    }
+}
+
+.user-input{
+    display: flex;
+    padding: 1% 0;
+    width: 60%;
+    gap: 1%;
+    margin: 4% auto;
+    justify-content: space-evenly;
+    background-color: aliceblue;
+
+    input{
+        border: none;
+        width: 80%;
+        background-color: aliceblue;
+        color: black;
+    }
+
+    input:focus{
+        outline: none;
+    }
+
+    img{
+        width: 10%;
+        height: auto;
+    }
+
+}
+
+.user-input:focus-within{
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+.form-image{
+    width: 35%;
+    height: auto;
+}
+
+.link-cadastrar{
+    color: rgb(255, 255, 255);
+}
+
+.btn-criar-conta{
+    text-decoration: underline black 1.2px;
+    color: rgb(85, 125, 255);
+    font-weight: bold;
+}

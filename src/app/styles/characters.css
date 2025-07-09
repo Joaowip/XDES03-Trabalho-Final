@@ -1,0 +1,105 @@
+.characters-card{
+    display: flex;
+    margin: 0.5% auto;
+    width: 98%;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    align-items: center;
+    border-radius: 1.2rem;
+
+    p{
+        font-size: 1.2rem;
+        margin-top: auto;
+        margin-bottom: 1rem;
+    }
+    h2{
+        margin-bottom: auto;
+        font-size: 1.5rem;
+    }
+    h3{
+        font-size: 1.2rem;
+    }
+    img{
+        margin: 1%;
+        width: 20%;
+        aspect-ratio: 16/10;
+        object-fit: contain;
+    }
+}
+
+#group1, #group2, #group3{
+    display: flex;
+    flex-direction: column;
+}
+
+#group1{
+    width: 20%;
+    p{
+        margin-top: 15%;
+    }
+}
+
+#group2{
+    width: 15%;
+}
+
+#group3{
+    padding-left: 2%;
+    width: 35%;
+}
+
+.pokemon-buttons-container{
+    display: flex;
+    /* border: 5px solid black; */
+    padding: 1%;
+    margin-bottom: auto;
+    height: 100%;
+    width: 15%;
+    justify-content: center;
+}
+
+#btn-edit, #btn-delete{
+    border: none;
+    border-radius: 0.5rem;
+    width: 75%;
+    height: 2rem;
+    img{
+        object-fit: contain;
+    }
+}
+#btn-edit{
+    background-color: greenyellow;
+    color: black;
+}
+#btn-delete{
+    background-color: red;
+    color: white;
+}
+
+
+
+    /* form{
+        flex: 2;
+    } */
+
+    /* form > button{
+        width: 100%;
+    } */
+
+    /* form > button, .edit-pokemon{
+        padding: 0;
+        border: none;
+        border-radius: 1rem;
+        color: white;
+        text-align: center;
+        font-size: 1.5rem;
+        margin: 1%;
+    } */
+    /* .edit-pokemon{
+        background-color: rgb(138, 138, 249);
+        flex:1.5;
+    }
+    form > button{
+        background-color: red;
+    } */
