@@ -113,3 +113,8 @@ src/
 ├── next-env.d.ts
 └── tsconfig.json
 ```
+
+## Atividades realizadas:
+João Guilherme Alvarenga: Tela de Login e Cadastro
+Pedro Henrique Pereira Campos: Dashboard, edit e delete
+João Victor Queiroz: Create, Implementação da API, Funcionalidade AutoComplete e CSS
